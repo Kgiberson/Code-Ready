@@ -1,0 +1,57 @@
+
+
+body {
+  padding-top: 58px;
+  font-size: 16px;
+}
+
+nav {
+  font-family: sans-serif;
+}
+
+#navi {
+  background-color: #000;
+}
+
+
+.logo-color {
+  height: 50px;
+  margin: 4px 0;
+}
+
+.navigation {
+  display: flex;
+}
+
+.section-1 {
+  margin: 0 auto;
+  background: url('../images/dancers-photo.png') no-repeat center center;
+}
+
+.banner {
+  width: 45rem;
+  padding-bottom: 3.125rem;
+}
+
+.banner > p {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-bottom: 5rem;
+}
+
+.section-1 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 9.4375rem 0 2.6875rem 0;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
+
+.section-2 {
+  background: url('../images/graffiti-photo.png') no-repeat center center;
+  height: 31.25rem;
+  background-position: 0 10px;
+}
