@@ -61,7 +61,12 @@ header nav ul {
 }
 
 nav li {
-  padding-left: 3.5rem;
+  padding-left: 2rem;
+}
+
+nav li a:hover {
+  background-color: darkgrey;
+  color: white;
 }
 
 nav a {
@@ -69,6 +74,8 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  padding: 10px 15px;
+  border-radius: 5px
 }
 
 header .icon {
