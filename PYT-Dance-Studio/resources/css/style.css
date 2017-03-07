@@ -1,4 +1,6 @@
-
+html {
+  font-size: 16px;
+}
 
 body {
   padding-top: 58px;
@@ -25,7 +27,7 @@ nav {
 
 .section-1 {
   margin: 0 auto;
-  background: url('../images/dancers-photo.png') no-repeat center center;
+  background: url('../images/dancers-photo.png') no-repeat;
 }
 
 .banner {
@@ -50,8 +52,73 @@ nav {
   line-height: 1;
 }
 
+.section {
+  height: 45rem;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 .section-2 {
   background: url('../images/graffiti-photo.png') no-repeat center center;
-  height: 31.25rem;
-  background-position: 0 10px;
+  background-position: -120px 0;
+}
+
+.content-box {
+  width: 40rem;
+  padding: 5rem 3rem;
+  background-color: rgba(120, 73, 225, 0.9);
+}
+
+.section-2 h2, .section-3 h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.section-2 p:last-of-type {
+  font-weight: bold;
+}
+
+.section-3 {
+  background: url('../images/fire-photo.png') no-repeat;
+  background-position: -175px 0;
+}
+
+.section-4 {
+  background: url('../images/jump-photo.png') no-repeat;
+  background-position: -120px -45px;
+}
+
+footer {
+  background: url('../images/party-photo.png') no-repeat;
+  height: 20rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+.footer-nav p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-nav p a:hover {
+  color: #a9a9a9;
+}
+
+.icons {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  height: 14rem;
+  background-color: rgba(0, 0, 0, 0.3);
 }
