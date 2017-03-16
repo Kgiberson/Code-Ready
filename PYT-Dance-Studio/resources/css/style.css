@@ -31,7 +31,7 @@ nav {
   background: url('../images/dancers-photo.png') no-repeat;
 }
 
-.banner {
+.section-1 .banner {
   width: 45rem;
   padding-bottom: 3.125rem;
 }
@@ -122,4 +122,37 @@ footer {
 .contact-info {
   height: 14rem;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* About Page */
+
+
+.runner {
+  background: url('../images/workout-photo.png') no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.runner .banner {
+  width: 50%;
+  padding-right: 6rem;
+}
+
+.runner .banner h2{
+  text-transform: uppercase;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+}
+
+.runner .banner p {
+  color: #666;
+}
+
+/*Main About Content of About Page*/
+
+.about-content .row {
+  padding-top: 4rem;
 }
